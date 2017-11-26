@@ -13,4 +13,5 @@ public:
     virtual IOReturn setPowerState(unsigned long whichState, IOService * whatDevice);
 private:
     virtual void disableGPU();
+    virtual void setBacklight(uint32_t Intensity);
 };
